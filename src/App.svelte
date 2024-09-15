@@ -106,7 +106,8 @@
   </div>
 </div>
 
-<p class = 'fuentes'>Fuentes: TheDrive | GuruGamer.com | Box Office Mojo | SYFY Official Site</p>
+<p class = 'fuentes'>Fuentes: 
+  <a href="https://www.thedrive.com/news/39425/heres-how-many-cars-have-been-destroyed-in-the-fast-furious-movies" target="_blank">TheDrive</a> | <a href="https://gurugamer.com/movies/how-many-cars-destroyed-fast-furious-franchise-9810" target="_blank">GuruGamer</a> | <a href="https://www.boxofficemojo.com/franchise/fr3628568325/" target="_blank">Box Office Mojo</a> | <a href="https://www.syfy.com/syfy-wire/fast-furious-franchise-zooms-past-7-billion-at-global-box-office" target="_blank">SYFY Official Site</a></p>
 
 <div class = 'finish'>
   <img src="./images/Recurso 3.png" alt="finish">
