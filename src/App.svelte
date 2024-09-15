@@ -121,12 +121,12 @@
 
 @font-face {
   font-family: 'DrukWideMedium';
-  src: url('tipografia/drukwidemedium.otf') format('opentype');
+  src: url('/tipografia/drukwidemedium.otf') format('opentype');
 }
 
 @font-face {
   font-family:'RobotoCondensed-Black';
-  src: url('tipografia/RobotoCondensed-Black.ttf') format('opentype');
+  src: url('/tipografia/RobotoCondensed-Black.ttf') format('truetype');
 }
 
 .ruedas{
