@@ -29,6 +29,10 @@
     .range(['white', '#ca5d39'])
 </script>
 
+<svelte:head>
+<script async type='text/javascript' src='https://public.flourish.studio/resources/embed.js' />
+</svelte:head>
+
 <!-- Estructura contenido HTML -->
 
 
@@ -90,19 +94,18 @@
 
   <div class= "container2">
     <div class="content">
-      <h2>Caos automovilístico</h2>
-      <p class = 'subtitulo'>Este gráfico muestra la evolución de la cantidad de autos destruidos en cada película de la saga Rápidos y Furiosos. Desde la primera del 2001, que destruyó 78 vehículos, el número ha aumentado considerablemente a medida que avanzaban las películas, alcanzando su punto máximo en Fast & Furious 6 con más de 350 autos destruidos. A lo largo de la saga, se observa un incremento constante en la destrucción de vehículos, reflejando el aumento en la magnitud de las escenas de acción.</p>
+      <h2>Evolución de autos destruidos</h2>
+      <p class = 'subtitulo'>Este gráfico muestra la evolución de la cantidad de autos destruidos en cada película de la saga Rápidos y Furiosos. Se observa un incremento constante en la destrucción de vehículos, reflejando el aumento en la magnitud de las escenas de acción.</p>
       <div class="flourish-embed flourish-chart" data-src="visualisation/19413376"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19413376/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
     </div>
   
     <div class="linea-vertical"></div>
 
     <div class="content">
-      <h2>El tributo</h2>
-      <p class = 'subtitulo'>Este gráfico muestra la recaudación total de cada película. A partir de la quinta película, Fast Five, la saga empieza a generar cifras millonarias a nivel global, consolidándose como una de las franquicias más exitosas del cine. La película más taquillera, Furious 7, recaudó más de 1.5 mil millones de dólares, impulsada por el homenaje a Paul Walker y escenas de acción a gran escala.</p>
+      <h2>Furious 7: pico de recaudación </h2>
+      <p class = 'subtitulo'>Este gráfico muestra la recaudación de cada película. Desde Fast Five, la saga genera cifras millonarias a nivel global. Furious 7, la más taquillera, recaudó más de 1.5 mil millones, impulsada por el homenaje a Paul Walker y grandes escenas de acción.</p>
 
-      <div class="flourish-embed flourish-taquilla" 
-      data-src="visualisation/19413320"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19413320/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
+      <div class="flourish-embed flourish-taquilla" data-src="visualisation/19413320"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/19413320/thumbnail" width="100%" alt="chart visualization" /></noscript></div>
   </div>
 </div>
 
@@ -262,7 +265,7 @@
 
 .linea-vertical {
   border-left: 1.5px dashed #d35939;
-  height: 600px; 
+  height: 570px; 
   width: 0; 
   margin: 20px; 
   justify-content: center;
@@ -284,6 +287,7 @@
   border: 2px solid #d35939;
   border-radius: 15px;
   background-color: #fdf7f5;
+  height: 650px;
   
 }
 
